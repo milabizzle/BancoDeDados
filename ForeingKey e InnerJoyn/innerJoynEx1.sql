@@ -54,7 +54,7 @@ INNER JOIN tb_classes ON tb_classes.id = tb_personagens.classes_id;
 SELECT nome, elemento from tb_personagens
 INNER JOIN tb_classes ON tb_classes.id = tb_personagens.classes_id WHERE elemento = "terra";
 
-
+TRUNCATE TABLE nome_da_tabela;
 
 
 
